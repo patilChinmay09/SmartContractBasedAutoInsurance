@@ -1,0 +1,115 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bdy{
+    width: 100vw;
+    height: calc(98vh - 50px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #f1f5f9;
+    font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+.cntnr-1{
+    width: 98vw;
+    height: calc(95vh - 50px);
+    border-radius: 20px;
+    /* border: 1px;
+    border-style: double;
+    border-color: #4338ca; */
+}
+h2{
+    color: #f1f5f9;
+    text-align: center;
+    margin-top: 15px;
+}
+
+table{
+    width: 500px;
+}
+th{
+    text-align: left;
+    width: 150px;
+}
+td{
+    padding-left: 10px;
+}
+th, td{
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.grid{
+    height: 500px;
+}
+
+h3{
+    margin-bottom: 10px;
+    text-decoration: dashed;
+}
+.policyForm{
+    margin-top: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bloc-title{
+    margin-top: 15px;
+}
+input, option, select{
+    color: #111827;
+}
+input, option, select{
+    width: 250px;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 10px;
+}
+input[type="radio"]{
+    width: 20px;
+    line-height: 25px;
+    margin-right: 10px;
+}
+.termLabel{
+    padding-bottom: 10px;
+}
+
+.details {
+    padding: 5px;
+    margin: 7px;
+}
+.details-btn{
+    width: 170px;
+}
+
+.continue{
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit{
+    padding: 5px 15px;
+    border-radius: 2.5px;
+    text-align: center;
+}
+
+.result-container{
+    text-align: center;
+}
+#result{
+    margin-top: 15px;
+    font-size: 1.2em;
+}
+.policyTable{
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    width: fit-content;
+}
